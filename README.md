@@ -56,7 +56,15 @@ Las llamadas internacionales poseen una tarifa variable según el país destino.
 
 * Smalltalk
 
-# Suposiciones
+## Metodología de desarrollo
+
+El sistema fue desarrollado utilizando TDD (Test-Driven Development).
+
+Se definieron primero los casos de prueba y posteriormente se implementó la funcionalidad necesaria para satisfacerlos, iterando el diseño de manera incremental.
+
+Este enfoque permitió validar el comportamiento del sistema desde el inicio y guiar el diseño hacia una estructura orientada al dominio y fácilmente testeable.
+
+## Suposiciones
 
 * La facturación se realiza de manera mensual.
 * La duración de las llamadas se considera en minutos.
